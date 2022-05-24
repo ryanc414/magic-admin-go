@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/go-resty/resty/v2"
 
-	"github.com/magiclabs/magic-admin-go"
-	"github.com/magiclabs/magic-admin-go/token"
+	"github.com/ryanc414/magic-admin-go"
+	"github.com/ryanc414/magic-admin-go/token"
 )
 
 const (

@@ -22,7 +22,7 @@ Simply reference `magic-admin-go` in a Go program with an `import` of the SDK:
 ``` golang
 import (
     ...
-    "github.com/magiclabs/magic-admin-go"
+    "github.com/ryanc414/magic-admin-go"
     ...
 )
 ```
@@ -32,7 +32,7 @@ Run any of the normal `go` commands (ex: `build`/`install`). The Go toolchain wi
 Alternatively, you can explicitly `go get` the package into a project:
 
 ```sh
-go get github.com/magiclabs/magic-admin-go
+go get github.com/ryanc414/magic-admin-go
 ```
 
 ## Command line utility
@@ -41,7 +41,7 @@ Command line utility is created for testing purposes and can be used for decodin
 
 You can simply install it by the command:
 ```bash
-go install github.com/magiclabs/magic-admin-go/cmd/magic-cli
+go install github.com/ryanc414/magic-admin-go/cmd/magic-cli
 ```
 
 Current available command supported:
@@ -76,8 +76,8 @@ import (
     "log"
     "fmt"
 
-    "github.com/magiclabs/magic-admin-go"
-    "github.com/magiclabs/magic-admin-go/client"
+    "github.com/ryanc414/magic-admin-go"
+    "github.com/ryanc414/magic-admin-go/client"
 )
 
 func main() {
@@ -99,7 +99,7 @@ import (
     "log"
     "fmt"
 
-    "github.com/magiclabs/magic-admin-go/token"
+    "github.com/ryanc414/magic-admin-go/token"
 )
 
 func main() {
